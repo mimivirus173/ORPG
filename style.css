@@ -24,8 +24,6 @@ html, body, p {
     color: white;
     font-weight: bold;
     font-size: 400%;
-    position: absolute;
-    left: 50%;
-    top: 25%;
-    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 150px;
 }
