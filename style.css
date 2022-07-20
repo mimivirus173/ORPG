@@ -31,23 +31,3 @@ html, body, p {
 a {
     text-decoration: none;
 }
-
-#return {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    padding: 8px;
-    background-color: white;
-    border-radius: 4px;
-    color: black;
-}
-
-#hubButton {
-    position: absolute;
-    top: 0px;
-    padding: 8px;
-    background-color: white;
-    border-radius: 4px;
-    color: black;
-}
-
