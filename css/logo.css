@@ -1,0 +1,37 @@
+/* Logo*/
+#ORPGtext {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 475%;
+    text-align: center;
+    line-height: 150px;
+}
+
+#ORPGlogo { 
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    outline: solid 45px white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.0;
+}
+
+#ORPGlogo {
+    animation-duration: 8s;
+    animation-name: vanish;
+    /* animation-delay: 1s; */
+}
+
+@keyframes vanish {
+    from {
+        opacity: 1.0;
+    }
+
+    to {
+        opacity: 0.0;
+    }
+}
