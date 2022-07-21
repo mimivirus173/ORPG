@@ -1,6 +1,6 @@
 // Main
 setTimeout(() => {
-    document.querySelector('game').style.display = "block";
+    document.getElementById('game').style.display = "block";
 }, 4000);
 
 // stuff
