@@ -21,7 +21,7 @@
 }
 
 #ORPGlogo {
-    animation-duration: 8s;
+    animation-duration: 3s;
     animation-name: vanish;
     /* animation-delay: 1s; */
 }
@@ -33,5 +33,6 @@
 
     to {
         opacity: 0.0;
+        display: none;
     }
 }
