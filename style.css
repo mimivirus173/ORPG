@@ -3,6 +3,10 @@ html, body, p {
     background-color: black;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 100%;
     height: 100%;
@@ -20,7 +24,15 @@ html, body, p {
     transform: translate(-50%, -50%);
 }
 
+
+#header {
+    top: 0px;
+    outline: solid 5px white;
+}
+
+/* Logo*/
 #ORPGtext {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
     color: white;
     font-weight: bold;
     font-size: 475%;
@@ -28,6 +40,51 @@ html, body, p {
     line-height: 150px;
 }
 
-a {
-    text-decoration: none;
+#ORPGlogo { 
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    outline: solid 45px white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.0;
+}
+
+#ORPGlogo {
+    animation-duration: 8s;
+    animation-name: vanish;
+    /* animation-delay: 1s; */
+}
+
+@keyframes vanish {
+    from {
+        opacity: 1.0;
+    }
+
+    to {
+        opacity: 0.0;
+    }
+}
+
+/* Tabs */
+div#tabs {
+	display: flex;
+	height: 22px;
+	justify-content: center;
+	column-gap: 8px;
+}
+button.tab {
+	width: 10%;
+	height: 100%;
+	background: linear-gradient(#222222, #000000);
+	border: solid 1px #bbbbbb;
+	border-radius: 0.5vh 0.5vh 0 0;
+	transform: translateY(-22.5px);
+	cursor: pointer;
+	color: white;
+	font-size: 0.6em;
+	display: flex;
+	align-items: center;
 }

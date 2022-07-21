@@ -11,14 +11,25 @@
         <meta name="keywords" content="HTML, CSS, JavaScript">
         <meta name="author" content="mimivirus173">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--SCRIPTS-->
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/saving.js"></script>
+        <script type="text/javascript" src="js/lib/format.js"></script>
+        <script type="text/javascript" src="js/lib/break_eternity.js"></script>
     </head>
     
     <body>
         <div class="container">
-            <div class="circle">
+            <div class="circle" id="ORPGlogo">
                 <div id="ORPGtext">
                     <p title="This is in development">ORPG</p>
                 </div>
+            </div>
+
+            <div id="tabs">
+                <button onclick="switchTab(location)" class="tab" id="tab-location">Crafting</button>
+                <button onclick="switchTab(crafting)" class="tab" id="tab-crafting">Crafting</button>
+                <button onclick="switchTab(mining)" class="tab" id="tab-mining">Crafting</button>
             </div>
         </div>
     </body>
