@@ -7,9 +7,10 @@ div#tabs {
 }
 
 button.tab {
+	font-family: 'Consolas', Arial, Helvetica, sans-serif;
 	width: 100%;
 	top: 0px;
-	background: linear-gradient(#222222, #000000);
+	background: #000000;
 	border: solid 8px #ffffff;
 	border-radius: 0 0 0.5vh 0.5vh;
 	cursor: pointer;
@@ -21,10 +22,18 @@ button.tab {
 	flex-direction: column;
 }
 
+button.tab:hover {
+	background: #3d3d3d;
+}
+
 /* Images */
 .tabImg {
 	width: 32px;
 	height: 32px;
+}
+
+.tabImg:hover {
+	background: #3d3d3d;
 }
 
 /* Animation 
