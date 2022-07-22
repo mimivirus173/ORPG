@@ -10,7 +10,7 @@ button.tab {
 	width: 100%;
 	top: 0px;
 	background: linear-gradient(#222222, #000000);
-	border: solid 8px #bbbbbb;
+	border: solid 8px #ffffff;
 	border-radius: 0 0 0.5vh 0.5vh;
 	cursor: pointer;
 	color: white;
