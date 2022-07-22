@@ -30,6 +30,7 @@ button.tab:hover {
 .tabImg {
 	width: 32px;
 	height: 32px;
+	background-color: inherit;
 }
 
 .tabImg:hover {
