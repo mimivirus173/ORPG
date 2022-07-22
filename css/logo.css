@@ -8,6 +8,7 @@
     line-height: 150px;
 }
 
+/*
 #ORPGlogo { 
     width: 300px;
     height: 300px;
@@ -23,7 +24,6 @@
 #ORPGlogo {
     animation-duration: 3s;
     animation-name: vanish;
-    /* animation-delay: 1s; */
 }
 
 @keyframes vanish {
@@ -36,3 +36,4 @@
         display: none;
     }
 }
+*/

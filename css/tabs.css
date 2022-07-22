@@ -18,10 +18,16 @@ button.tab {
 	font-size: 0.6em;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
-/* Animation */
-div#tabs {
+/* Images */
+.tabImg {
+	size: 0px;
+}
+
+/* Animation 
+div#tabs {	
     animation-name: appear;
     animation-duration: 1s;
     animation-delay: 6s;
@@ -36,3 +42,4 @@ div#tabs {
         opacity: 1.0;
     }
 }
+*/
