@@ -7,6 +7,15 @@
     text-align: center;
     line-height: 150px;
 }
+  
+.circle {
+    border-radius: 50%;
+    outline: solid 45px white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /*
 #ORPGlogo { 
