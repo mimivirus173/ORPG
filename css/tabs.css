@@ -23,7 +23,7 @@ button.tab {
 }
 
 button.tab:hover {
-	background: #787878;
+	background: linear-gradient(gray, rgb(56, 56, 56));
 }
 
 /* Images */
